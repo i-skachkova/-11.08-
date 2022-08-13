@@ -1,0 +1,17 @@
+input{
+	width: 200px;
+	outline: none;
+}
+#one:focus{
+    color: green;
+    font-weight: bold;
+}
+#two:focus{
+    box-shadow: 0px 0px 3px orange;
+	border: 1px solid orange;
+	color: orange;
+}
+#three:focus{
+	width: 400px;
+	box-shadow: 0px 0px 3px gray;
+}
